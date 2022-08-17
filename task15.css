@@ -9,6 +9,7 @@
 body{
     padding: 16px;
     background: #FFF7F0;
+    overflow-x: hidden;
 }
 
 .logo_freeconsultation{
@@ -226,4 +227,154 @@ body{
     color: #FFFFFF;
     align-self: flex-start;
     margin-top: 40px;
+}
+
+.woman_pattern{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.pretty_woman{
+    height: 300px;
+    width: 300px;
+    border-radius: 0px;    
+}
+
+.I_am_Ammy{
+    display: flex;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #030303;
+    margin-top: 40px;
+}
+
+.I_am_Ammy_text{
+    display: flex;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7A746E;
+    margin-top: 24px;
+}
+
+.bottom_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.free_consultation_button{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFF7F0;
+    background: #EB7565;
+    border-radius: 28px;
+    border: 0;
+    height: 44px;
+    width: 176px;
+    margin-top: 24px;
+    align-self: center;
+}
+
+
+.my_work_title{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #030303;
+    margin-top: 100px;
+}
+
+.slides{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.slide_one,
+.slide_two,
+.slide_three,
+.slide_four,
+.slide_five{
+    background: #D8D8D8;
+    border-radius: 10px;
+    height: 180px;
+    width: 270px;  
+}
+
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.right_box,
+.left_box{
+    display: flex;
+    height: 64px;
+    width: 64px;
+    background-color: #030303;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.black_box{
+    background: #030303;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+    margin-top: 100px;
+}
+
+.book_call{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFF7F0;
+    margin-top: 49px;
+}
+
+.book_call_text{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFF7F0;
+    margin-top: 24px;
+}
+
+.logo_freeconsultation_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 16px;
 }
