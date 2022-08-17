@@ -353,6 +353,8 @@ body{
     margin-top: 100px;
 }
 
+
+
 .book_call{
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
@@ -375,10 +377,148 @@ body{
     margin-top: 24px;
 }
 
+
+
 .logo_freeconsultation_bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
     margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    body {
+        padding-top: 39px;
+        padding-bottom: 16px;
+        padding-left: 39px;
+        padding-right: 39px;
+        background: #FFF7F0;
+        overflow-x: hidden;
+    }
+
+
+    .title {
+        width: 485px;
+    }
+
+    .containers_wrap{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .blue_container {
+        display: flex;
+        flex-direction: column;
+        height: 364px;
+        width: 100%;
+        background: #755CDE;
+        border-radius: 8px;
+        margin-top: 32px;
+        padding: 24px;
+        align-items: flex-end;
+    }
+
+    
+    .ui_ux_apps{
+        gap: 24px;
+    }
+
+    .photography_motion_graphics_wrap {
+        display: flex;
+        width: 100%;
+        gap: 24px;
+    }
+
+    .ui_ux_apps_illustrations_wrap{
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .photography,
+    .motion_graphics{
+        margin: 0;
+    }
+
+
+
+    .blue_ui_ux_apps_illustrations{
+        display: flex;
+        width: 100%;
+        gap: 24px;
+    }
+
+    .title_text_button {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pattern_title_text_button {
+        display: flex;
+        align-items: center;
+        height: 364px;
+        gap: 69px;
+        margin-top: 120px;
+        justify-content: space-between;
+    }
+
+    .woman_pattern {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-left: -52px;
+        margin-right: 59px;
+    }
+
+    .I_am_Ammy{
+        margin-top: 0;
+        text-align: left;
+        width: 261px;
+    }
+
+    .I_am_Ammy_text{
+        width: 306px;
+    }
+    
+    .book_call_text {
+        width: 496px;
+    }
+
+    .black_box {
+        margin-top: 120px;
+        align-items: center;
+    }
+
+    .logo_freeconsultation_bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 56px;
+        margin-bottom: 40px;
+    }
+
+    .arrows {
+        margin-top: 56px;
+    }
+
+    .slide_one,
+    .slide_two,
+    .slide_three,
+    .slide_four,
+    .slide_five{
+        background: #D8D8D8;
+        border-radius: 10px;
+        height: 360px;
+        width: 540px;
+    }
 }
