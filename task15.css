@@ -286,6 +286,10 @@ body{
     align-self: center;
 }
 
+.my_work_title_slide{
+    overflow-x: hidden;
+}
+
 
 .my_work_title{
     display: flex;
