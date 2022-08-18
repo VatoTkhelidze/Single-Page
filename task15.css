@@ -7,9 +7,15 @@
 }
 
 body{
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background: #FFF7F0;
     overflow-x: hidden;
+}
+
+.body_top{
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .logo_freeconsultation{
@@ -36,6 +42,8 @@ body{
     font-size: 14px;
     line-height: 28px;
 }
+
+
 
 .title_info{
     display: flex;
@@ -190,12 +198,12 @@ body{
     flex-direction: column;
     align-items: flex-end;
     height: 182px;
-    width: 752px;
+    /* width: 752px; */
     background: #61C4B7;
     border-radius: 8px;
     padding: 24px;
     margin-top: 24px;
-    /* width: 100%; */
+    width: 100%;
 }
                                             /* LOOK ON THIS */
                                             /* LOOK ON THIS */
@@ -287,9 +295,9 @@ body{
     color: #FFF7F0;
     background: #EB7565;
     border-radius: 28px;
-    border: 0;
-    height: 44px;
-    width: 176px;
+    border: 0;    
+    height: 56px;
+    width: 228px;
     margin-top: 24px;
     align-self: center;
 }
@@ -297,6 +305,8 @@ body{
 .my_work_title_slide{
     overflow-x: hidden;
 }
+
+
 
 
 .my_work_title{
@@ -359,6 +369,8 @@ body{
     padding-right: 24px;
     padding-bottom: 48px;
     margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 17px;
 }
 
 
@@ -385,6 +397,11 @@ body{
     margin-top: 24px;
 }
 
+.book_call_text_container{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 .logo_freeconsultation_bottom{
@@ -393,7 +410,37 @@ body{
     align-items: center;
     margin-top: 40px;
     margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -407,15 +454,25 @@ body{
     body {
         padding-top: 39px;
         padding-bottom: 16px;
-        padding-left: 39px;
-        padding-right: 39px;
         background: #FFF7F0;
         overflow-x: hidden;
     }
+    .body_top{
+        padding-left: 39px;
+        padding-right: 39px;
+    }
 
+    .logo{
+        height: 64px;
+        width: 64px;
+    }
 
     .title {
         width: 485px;
+    }
+
+    .info {
+        width: 533px;
     }
 
     .containers_wrap{
@@ -475,7 +532,6 @@ body{
         display: flex;
         align-items: center;
         height: 364px;
-        gap: 69px;
         margin-top: 120px;
         justify-content: space-between;
     }
@@ -499,12 +555,20 @@ body{
     }
     
     .book_call_text {
-        width: 496px;
+        width: 558px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .book_call {
+        font-size: 32px;
+        line-height: 40px;
     }
 
     .black_box {
         margin-top: 120px;
         align-items: center;
+        margin-left: 39px;
+        margin-right: 39px;
     }
 
     .logo_freeconsultation_bottom {
@@ -513,7 +577,11 @@ body{
         align-items: center;
         margin-top: 56px;
         margin-bottom: 40px;
+        margin-left: 39px;
+        margin-right: 40px;
     }
+
+    
 
     .arrows {
         margin-top: 56px;
@@ -529,4 +597,228 @@ body{
         height: 360px;
         width: 540px;
     }
+
+    .slides{
+        gap: 30px;
+        margin-top: 56px;
+        width: unset;
+    }
+
+    .my_work_title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .book_call_text_container {
+        display: flex;
+        flex-direction: column;
+        width: 761px;
+        align-items: center;
+    }
+
+    .freeConsultation{
+        height: 56px;
+        width: 228px;
+    }
+
+    .pretty_woman{
+        height: 364px;
+        width: 364px;
+    }
+
+    .woman_pattern {
+        margin-right: 0;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px){
+    body {
+        padding-top: 34px;
+        padding-bottom: 64px;
+        overflow-x: hidden;
+    }
+
+    .body_top{
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    .info {
+        width: 650px;
+    }
+
+    .containers_wrap {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 24px;
+        margin-top: 56px;
+    }
+
+    .photography_motion_graphics_wrap {
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    .motion_graphics{
+        height: 158px;
+    }
+
+    .motion_graphics_text{
+        margin-top: 16px;
+    }
+
+    .photography_motion_graphics_wrap {
+        width: 48.4%;
+    }
+
+    .title{
+        font-size: 56px;
+        line-height: 71px;
+        width: 751px;
+    }
+
+
+    .I_am_Ammy{
+        font-size: 40px;
+        line-height: 50px;
+        width: 496px;     
+    }
+
+    .I_am_Ammy_text {
+        width: 468px;
+    }
+
+    .pattern_title_text_button {
+        justify-content: center;
+        gap: 125px;
+    }
+
+    .pretty_woman{
+        height: 445px;
+        width: 445px;
+        border-radius: 0px;    
+    }
+
+    .my_work_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .slides{
+        gap: 30px;
+        margin-top: 56px;
+        width: 210px;
+    }
+
+    .my_work_title_slide {
+        overflow-x: visible;
+    }
+
+    .pattern_title_text_button {
+        height: 445px;
+    }
+
+    .black_box{
+        padding-left: 65px;
+        padding-right: 95px;
+        padding-bottom: 48px;
+        margin-top: 88px;
+        margin-left: 165px;
+        margin-right: 165px;
+        align-items: flex-start;
+        background: #030303;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .book_call_text {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+        width: 532px;
+    }
+
+    .book_call_text_container {
+        display: flex;
+        flex-direction: column;
+        width: 609px;
+        align-items: flex-start;
+    }
+    
+
+
+
+    .free_consultation_button {
+        margin-top: 0;
+        height: 56px;
+        width: 228px;
+    }
+
+    .free_consultation_button:hover {
+        background: #F6A560;
+        cursor: pointer;
+    }
+
+    .freeConsultation{
+        height: 56px;
+        width: 228px;
+    }
+
+    .freeConsultation:hover {
+        background: #755CDE;
+        cursor: pointer;
+    }
+
+    .bottom_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 110.5px;
+    }
+
+    .logo_freeconsultation_bottom {
+        margin-left: 165px;
+        margin-right: 165px;
+    }
+
+    .left_box:hover {
+        background: #755CDE;
+        cursor: pointer;
+    }
+
+    .right_box:hover {
+        background: #755CDE;
+        cursor: pointer;
+    }
+
+    
+    
+
+    
 }
