@@ -349,7 +349,15 @@ body{
     margin-top: 32px;
 }
 
-.right_box,
+.right_box{
+    display: flex;
+    height: 64px;
+    width: 64px;
+    background-color: #030303;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
 .left_box{
     display: flex;
     height: 64px;
@@ -731,6 +739,7 @@ body{
     .slides{
         gap: 30px;
         margin-top: 56px;
+        margin-left: unset;
         width: 210px;
     }
 
@@ -817,8 +826,4 @@ body{
         cursor: pointer;
     }
 
-    
-    
-
-    
 }
