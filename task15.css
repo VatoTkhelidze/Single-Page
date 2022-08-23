@@ -340,7 +340,7 @@ body{
     width: 270px;  
 }
 
-.arrows{
+.arrows_phone{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -349,7 +349,7 @@ body{
     margin-top: 32px;
 }
 
-.right_box{
+.right_box_phone{
     display: flex;
     height: 64px;
     width: 64px;
@@ -358,7 +358,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.left_box{
+.left_box_phone{
     display: flex;
     height: 64px;
     width: 64px;
@@ -420,6 +420,11 @@ body{
     margin-bottom: 16px;
     margin-left: 16px;
     margin-right: 16px;
+}
+
+.arrows_tablet,
+.arrows_desktop{
+    display: none;
 }
 
 
@@ -591,8 +596,31 @@ body{
 
     
 
-    .arrows {
+    .arrows_tablet{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        gap: 16px;
         margin-top: 56px;
+    }
+    .right_box_tablet{
+        display: flex;
+        height: 64px;
+        width: 64px;
+        background-color: #030303;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    .left_box_tablet{
+        display: flex;
+        height: 64px;
+        width: 64px;
+        background-color: #030303;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
     }
 
     .slide_one,
@@ -636,6 +664,10 @@ body{
 
     .woman_pattern {
         margin-right: 0;
+    }
+    .arrows_desktop,
+    .arrows_phone{
+        display: none;
     }
 
     
@@ -824,6 +856,39 @@ body{
     .right_box:hover {
         background: #755CDE;
         cursor: pointer;
+    }
+
+    .arrows_desktop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        gap: 16px;
+        margin-top: 32px;
+    }
+
+    .right_box_desktop{
+        display: flex;
+        height: 64px;
+        width: 64px;
+        background-color: #030303;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    .left_box_desktop{
+        display: flex;
+        height: 64px;
+        width: 64px;
+        background-color: #030303;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrows_tablet,
+    .arrows_phone{
+        display: none;
     }
 
 }
