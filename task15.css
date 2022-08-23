@@ -848,12 +848,12 @@ body{
         margin-right: 165px;
     }
 
-    .left_box:hover {
+    .left_box_desktop:hover {
         background: #755CDE;
         cursor: pointer;
     }
 
-    .right_box:hover {
+    .right_box_desktop:hover {
         background: #755CDE;
         cursor: pointer;
     }
